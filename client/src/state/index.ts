@@ -20,7 +20,7 @@ export const globalStyles = createSlice({
             state.isSidebarCollapsed = action.payload
         },
         setIsDarkMode: (state,action:PayloadAction<boolean>) => {
-            state.isSidebarCollapsed = action.payload
+            state.isDarkMode = action.payload
         },
     }
 })
